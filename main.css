@@ -1,3 +1,5 @@
-div.sidebar {
-  border-radius: 10px;
+.sidebar {
+  width: 200px;
+  height: 200px;
+  backround-color: blue;
 }
