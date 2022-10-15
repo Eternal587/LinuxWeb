@@ -3,15 +3,17 @@
 <title>
 LinuxWeb
 </title>
-<script>
- var linux = require('RunLinux.js');
-</script>
 <body>
 <big>
 <center>
 Welcome to Linux Web
  <br>
-<input type="button" value="StartLinux" class="StartLinux" onclick"">
+<script> 
+document.addEventListener("click", StartLINUX);
+function StartLINUX() {
+location = "/index.html"
+}
+ </script>
  </center>
  </big>
 </body>
