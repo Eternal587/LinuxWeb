@@ -3,3 +3,7 @@
   height: 200px;
   backround-color: blue;
 }
+body {
+    -moz-transform: scale(2.0); /* for Firefox, default 1*/
+    zoom:200%; /* For Chrome, IE, default 100%*/
+}
